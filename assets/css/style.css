@@ -1,0 +1,11 @@
+body {
+    /* more on thsi crazy alphanumerical value in a minte! */
+    color: #39a6b2;
+    font-family: helvetica, arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
