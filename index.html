@@ -39,9 +39,27 @@
                 <p>Fill out this form and one of our trainer will schedulle a consult</p>
                 <!-- Add form element-->
                 <form>
-                    <label for="name"> Enter full name</label>
-                    <input tyoe="text" placeholder= "Your Name" name="name"
-                
+                    <label for="name"> Enter full name:</label>
+                    <input type="text" placeholder= "Your Name" name="name" id="name" />
+                    <label for="email"> Enter email adress:</label>
+                    <input type="text" placeholder="email address" name="email" id="email" />
+                    <label for="phone number"> Enter phone number:</label>
+                    <input type="number" placeholder="phone number" name="phone number" id="phone" />
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        I acknowledge that i am at least 18 years or age.
+                        <input type="checkbox" name="acknowledgement-confirm" id="acknowledgement-yes" />
+                        <label for="acknowledgement-yes"></label>
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
                 </form>
             
             </div>
