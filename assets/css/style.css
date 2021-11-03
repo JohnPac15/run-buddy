@@ -50,6 +50,8 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* footer
+ */
 footer {
     background: #fce138;
     width: 100%;
@@ -76,6 +78,8 @@ footer a {
     color: #024e76;
 }
 
+/* section */
+
 section {
     padding: 60px;
 }
@@ -92,16 +96,6 @@ section {
 }
 /*hero style ends*/
 
-/*hero-form*/
-.hero-form {
-    background-color: #fce138;
-    color: #024e76;
-    padding: 20px;
-    width: 40%;
-    margin: 3.5%;
-    border: 3px solid #024e76;
-}
-
 /* .Her-CTA */
 .her-cta {
     width: 35%;
@@ -117,6 +111,18 @@ section {
     font-size: 55px;
     color: #fce138;
 }
+
+/*hero-form*/
+
+.hero-form {
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 40%;
+    margin: 3.5%;
+    border: 3px solid #024e76;
+}
+
 
 .hero-form h3 {
     font-size: 24px;
@@ -150,24 +156,6 @@ section {
 }
 
 
-
-
-
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.steps {
-    
-    background-color: #fce138;
-}
-
-
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -185,7 +173,24 @@ section {
 
 .secondary-border {
     border-color: #39a6b2;
+
+
+
 }
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.steps {
+    background: #fce138;
+}
+
+
 
 .step {
     margin: 50px auto;
@@ -211,6 +216,19 @@ section {
     align-items: center;
 }
 
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
 .step-text p {
     color: #39a6b2;
     font-size: 18px;
@@ -222,20 +240,7 @@ section {
     color: #024e76;
 }
 
-.step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-}
-
-.step-text {
-    flex: 12;
-}
-
-.step-img img {
-    max-width: 100%;
-}
-
-
+/* Trainers  */
 
 .trainers {
     width: 100%;
@@ -277,20 +282,17 @@ section {
     font-size: 17px;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 
 /* reach put style start */
 
 .contact {
-    text-align: center;
-    background: #024e76;
+   background: #024e76;
 }
+
+.contact h2 {
+    color: #fce138;
+}
+
 .contact-info {
     display: flex;
     justify-content: space-between;
@@ -300,24 +302,19 @@ section {
 .contact-info > * {
     flex: 1;
     margin: 15px;
-
+    
 }
 
-.contact h2 {
-    color: #fce138;
-}
 
 .contact-info iframe {
-    
     height: 400px;
 }
 
 .contact-info div {
-    
     color: white;
 }
 
-.contact-info div h3 {
+.contact-info h3 {
     color: #fce138;
     font-size: 32px;
 }
@@ -330,9 +327,6 @@ section {
     font-style: normal;
 }
 
-.contact-info a {
-    color:#fce138;
-}
 
 .contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
@@ -353,8 +347,23 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+}
+
+.contact-info a {
+    color:#fce138;
+}
 
 
+
+.text-left {
+    text-align: left;
+}
+    
+        
+.text-right {
+        text-align: right;
+}
+    
 }
 .flex-row {
     display: flex;
